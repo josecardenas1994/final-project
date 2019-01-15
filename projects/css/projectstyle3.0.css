@@ -1,0 +1,24 @@
+body {
+    background-image: url("../img/arc.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.square-list {
+    list-style-type: square;
+    /* border: linewidth line type color */
+    border:2px solid #333;
+padding-left: 10px;
+padding-top: 10px;
+margin-bottom: 30px;
+}
+button{
+    padding-left: 30px;
+    padding-right:30px;
+    padding-bottom:5px;
+    padding-top:5px;
+}
+    /*  padding is  top right bottom left */
+    /* padding: 5px 30px 5px 30px; */
+/* if you do short  top/ bottom left */
+/* all sides  */
+/* padding:10px; */
