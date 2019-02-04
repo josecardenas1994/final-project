@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>session 103 class2</title>
+    <link href="css/css class 2.css" rel="stylesheet">
+    <link href="css/session3.css" rel="stylesheet">
+</head>
+
+<nav class="">
+        <ul>
+                <li><a href="html calss intermiediate.html">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li style="float:right"><a class="active" href="#about">About</a></li>
+      </ul>
+            </nav>
+          
+    <h1 align="center"> Smithys Guns & Big Toys</h1>
+<body>
+<h1>Gun Application</h1>
+
+
+<forms>
+
+<form action="#" method="get">
+<label>Purchaser Name:</label>
+<input type="text" id="name" name="user">
+<br>
+<label>password</label>
+<input type="password" id="password">
+<br>
+<input type="submit" value="send data">
+<input type="reset" value="clear">
+</form>
+
+<hr>
+
+<form action="register.php" method="get">
+
+    <h3>Register New Gun</h3>
+<label>Social security:</label>
+<input type="password" name="social security" required placeholder="social" >
+<br>
+<label>Gun type</label>
+<input type="text" name="Type of Gun"  placeholder="Type of Gun">
+<br>
+
+<label>description</label>
+<textarea name="description"  placeholder="product description" cols="30" ></textarea>
+<br>
+<label>price $</label>
+<input type="number" name="price">
+<br>
+
+<label>apply taxes?</label>
+<input type="radio" value="yes"name="taxes">yes
+<input type="radio" value="no" name="taxes">no
+<br>
+
+<label>usage</label>
+<br>
+<input type="checkbox" value="sport" name="usage">sport
+<br>
+<input type="checkbox" value="outdoor" name="usage">outdoor
+<br>
+<input type="checkbox" value="hunting" name="usage">hunting
+<br>
+<input type="checkbox" value="home defence" name="usage">Home defence
+<br>
+<input type="checkbox" value="millitary" name="usage">millitary
+<br>
+<label>category</label>
+<select name="category">
+    <option value="1">Rifle</option>
+    <option value="2">Hand Gun</option>
+    <option value="3">Fully Automatic</option>
+    <option value="4"></option>
+</select>
+<br>
+
+<label>Date of Purchase</label>
+<input type="date" name="purchase date">
+<br>
+<input type="submit" value="save product">
+<input class="danger" type="reset" value="clear form">
+
+
+</form>
+<hr>
+
+</body>
+
+
+
+</html>

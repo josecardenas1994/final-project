@@ -1,0 +1,12 @@
+h1{
+    color:green;
+}
+.card {
+    width: 130px;
+    height: 195px;
+    background: url("img/war.jpg") no-repeat;
+    margin: 50px;
+}
+.card:hover {
+    background: url("img/guardian.jpg") no-repeat;
+}
